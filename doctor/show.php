@@ -24,6 +24,8 @@ if(isset($_GET['delete'])){
         echo "Error deleting record: " . mysqli_error($conn);
     }
 }
+// auth();
+
 ?>
 
 <?php while ($row = mysqli_fetch_assoc($result)) : ?>
